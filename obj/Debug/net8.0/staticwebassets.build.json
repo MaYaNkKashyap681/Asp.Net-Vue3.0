@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X0JKBmR1rwkDThV8P4ig2KrJCoKFP1iguWPv5vz0fz4=",
+  "Hash": "WbmDeAfGyOGn3TFgUyFMaaeHoCVAqdE8yrcXD/ULcRc=",
   "Source": "vue3",
   "BasePath": "_content/vue3",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\mayan\\source\\repos\\vue3\\vue3\\wwwroot\\dist\\globalstyle.css",
+      "SourceId": "vue3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mayan\\source\\repos\\vue3\\vue3\\wwwroot\\",
+      "BasePath": "_content/vue3",
+      "RelativePath": "dist/globalstyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\globalstyle.css"
     },
     {
       "Identity": "C:\\Users\\mayan\\source\\repos\\vue3\\vue3\\wwwroot\\dist\\index.html",

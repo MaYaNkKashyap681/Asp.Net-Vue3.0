@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vue3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c627da7298cd5b0829a82fa27ea01dc0edc5159d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2a0e587c3254244cb343c5d0a051925e4124bff")]
 [assembly: System.Reflection.AssemblyProductAttribute("vue3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vue3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

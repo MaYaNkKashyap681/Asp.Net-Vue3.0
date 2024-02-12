@@ -1,7 +1,21 @@
-import Vue from 'vue'
+/*import { createApp } from 'vue';
+import UserComp from './components/UserComp.vue';
 
-Vue.component('user-view', require('./components/UserComp.vue').default);
+const app = createApp({});
+app.component('user-view', UserComp);
+app.config.productionTip = false;
 
-Vue.config.productionTip = false
+// Make Vue instance available globally if needed
+window.Vue = app;
+*/
 
-window.Vue = Vue
+
+import { createApp } from 'vue';
+import App from './App.vue';
+import UserComp from './components/UserComp.vue';
+
+const app = createApp(App);
+
+app.component(UserComp, 'user-view');
+
+window.app = app;
