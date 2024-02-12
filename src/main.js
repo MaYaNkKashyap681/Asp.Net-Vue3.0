@@ -11,11 +11,13 @@ window.Vue = app;
 
 
 import { createApp } from 'vue';
-import App from './App.vue';
+/*import App from './App.vue';*/
 import UserComp from './components/UserComp.vue';
+import GroupComp from './components/GroupComp.vue';
 
-const app = createApp(App);
+const usercomp = createApp(UserComp);
+const groupcomp = createApp(GroupComp);
 
-app.component(UserComp, 'user-view');
-
-window.app = app;
+/*app.component(UserComp, 'user-view');*/
+window.usercomp = usercomp;
+window.groupcomp = groupcomp;

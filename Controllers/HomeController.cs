@@ -15,7 +15,9 @@ namespace vue3.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View("~/Views/Home/index.cshtml");
+           /* Console.WriteLine("Hello I am Called!");
+            return View();*/
         }
 
         public IActionResult Privacy()

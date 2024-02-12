@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\dist\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\mayan\\source\\repos\\vue3\\vue3\\wwwroot\\dist\\globalstyle.css",
-      "PackagePath": "staticwebassets\\dist\\globalstyle.css"
-    },
-    {
       "Id": "C:\\Users\\mayan\\source\\repos\\vue3\\vue3\\wwwroot\\dist\\index.html",
       "PackagePath": "staticwebassets\\dist\\index.html"
     },

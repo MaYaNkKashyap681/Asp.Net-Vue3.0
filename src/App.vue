@@ -1,22 +1,20 @@
 <template>
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App Mayank kashyap" />
+<!--    <HelloWorld msg="Welcome to Your Vue.js App Mayank kashyap" />-->
     <UserComp />
 </template>
 
 <script>
-    import HelloWorld from './components/HelloWorld.vue'
+/*    import HelloWorld from './components/HelloWorld.vue'*/
     import UserComp from './components/UserComp.vue'
 
     export default {
         name: 'App',
         components: {
-            HelloWorld,
+
             UserComp
         }
     }
-
-
 </script>
 
 <style>

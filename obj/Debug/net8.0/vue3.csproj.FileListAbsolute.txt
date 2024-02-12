@@ -1,8 +1,5 @@
 C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\appsettings.json
-C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\jsconfig.json
-C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\package-lock.json
-C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\package.json
 C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\vue3.staticwebassets.runtime.json
 C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\vue3.exe
 C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\vue3.deps.json
@@ -31,3 +28,10 @@ C:\Users\mayan\source\repos\vue3\vue3\obj\Debug\net8.0\refint\vue3.dll
 C:\Users\mayan\source\repos\vue3\vue3\obj\Debug\net8.0\vue3.pdb
 C:\Users\mayan\source\repos\vue3\vue3\obj\Debug\net8.0\vue3.genruntimeconfig.cache
 C:\Users\mayan\source\repos\vue3\vue3\obj\Debug\net8.0\ref\vue3.dll
+C:\Users\mayan\source\repos\vue3\vue3\obj\Debug\net8.0\vue3.sourcelink.json
+C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\clientvue\jsconfig.json
+C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\clientvue\package-lock.json
+C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\clientvue\package.json
+C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\jsconfig.json
+C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\package-lock.json
+C:\Users\mayan\source\repos\vue3\vue3\bin\Debug\net8.0\package.json
