@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import Vue from 'vue'
 
-createApp(App).mount('#app')
+Vue.component('user-view', require('./components/UserComp.vue').default);
+
+Vue.config.productionTip = false
+
+window.Vue = Vue

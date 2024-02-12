@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿@* <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -47,3 +47,19 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+ *@
+
+
+
+<div id="app">
+    @RenderBody()
+</div>
+
+
+<script src="~/dist/app.js"></script>
+
+
+<script>
+    new Vue({
+    }).$mount('#app')
+</script>

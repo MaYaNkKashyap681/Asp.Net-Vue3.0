@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\vue3.props" />
+</Project>
