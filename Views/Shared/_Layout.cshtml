@@ -49,9 +49,17 @@
 </html>
  *@
 
-<div id="app">
-    @RenderBody()
-</div>
+ 
+<head>
+    <link rel="stylesheet" href ="~/dist/globalstyle.css"/>
+    <link rel="stylesheet" href="~/vue3.styles.css" asp-append-version="true" />
+</head>
+
+ <body class="dx-viewport">
+    <div id="app">
+        @RenderBody()
+    </div>
+</body>
 
 
 

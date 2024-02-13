@@ -5,10 +5,34 @@
 }
 
 
+@{
+    var employees = ViewData["employees"] as List<vue3.Models.Employee>;
+    var employeesData = @Html.Raw(Json.Serialize(employees));
+}
 
 <script src="~/dist/app.js"></script>
-<script>
-    groupcomp.mount('#app');
-</script>
 
+<script type="module">
+    const groupapp = createApp(GroupComp, {
+        employeesData: @employeesData
+        });
+    groupapp.mount('#app');
+</script>
+@* 
 <h1>This is CSHTML Controller Here.</h1>
+
+<h1>@ViewData["title"]</h1>
+
+@if (employees != null)
+{
+    <div class="gridviewer">
+    @foreach(var employee in employees)
+    {
+        <img src ="@employee.Photo"/>
+    }
+    </div>
+} *@
+
+
+
+
