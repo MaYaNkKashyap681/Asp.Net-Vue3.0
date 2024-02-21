@@ -1,5 +1,7 @@
 ﻿using vue3.Models;
 using Microsoft.AspNetCore.Mvc;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Reflection;
 
 namespace vue3.Controllers
 {
@@ -71,6 +73,28 @@ namespace vue3.Controllers
             // Assign the list of employees to ViewData
             ViewData["employees"] = employees;
             return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult SubmitData()
+        {
+            return Ok();
+        }
+
+
+        [HttpPost]
+        public IActionResult SubmitData1()
+        {
+            return PartialView("~/Views/Shared/_demopartial.cshtml");
+        }
+
+        [HttpPost]
+        public IActionResult SubmitData2([FromBody] ReqData model)
+        {
+
+            Console.WriteLine(model.name);
+            return Ok(model);
         }
     }
 }

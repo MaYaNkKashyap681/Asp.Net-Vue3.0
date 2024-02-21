@@ -1,0 +1,38 @@
+﻿
+
+<script src="~/dist/app.js"></script>
+<div>
+<div id="panelid">
+<script>
+    createApp(PanelComp).mount('#panelid');
+</script>
+
+@* <h1>This is Panel View Testing</h1>
+<div id="partialViewContainer"></div>
+<button id = "close-button" onclick="handleClick()"></button>
+<br/>
+<a href="#" id="loadPartialView">Load Partial View</a> *@
+@* <script>
+    $(document).ready(() => {
+        $('#loadPartialView').click((e) => {
+            e.preventDefault(); 
+            $.ajax({
+                url: '/Panel/Details', 
+                type: 'GET',
+                success: function (response) {
+                    console.log(response)
+                    $('#partialViewContainer').html(response);
+                    $('#close-button').html("<h1>X</h1>")
+                    
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error loading partial view:', error);
+                }
+            });
+        });
+    });
+    function handleClick() {
+        $('#partialViewContainer').html(null);
+        $('#close-button').html(null);
+    }
+</script> *@

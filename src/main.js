@@ -18,6 +18,8 @@ import { createSSRApp } from 'vue'
 /*import App from './App.vue';*/
 import UserComp from './components/UserComp.vue';
 import GroupComp from './components/GroupComp.vue';
+import PanelComp from './components/PanelComp.vue';
+import PartialComp from './components/PartialComp.vue';
 
 const usercomp = createApp(UserComp);
 /*const groupcomp = createApp(GroupComp);*/
@@ -29,3 +31,6 @@ window.usercomp = usercomp;
 window.GroupComp = GroupComp;
 window.createApp = createApp;
 window.createSSRApp = createSSRApp;
+window.UserComp = UserComp;
+window.PanelComp = PanelComp;
+window.PartialComp = PartialComp;
